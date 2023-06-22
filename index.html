@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Schedule Planner</title>
+  <style>
+    .red-text {
+      color: red;
+    }
+
+    .blue-text {
+      color: blue;
+    }
+
+    .green-text {
+      color: green;
+    
+    }
+    .white-text {
+      color: white;
+    }
+  </style>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+  <div class="main">
+    <div class="navbar">
+        <div class="icon">
+            <h2 class="logo">Lanoya SchedulePlanner</h2>
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li><a href="Index.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="Design.html">DESIGN</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+  <div id="schedule">
+    <!-- Your schedule items will be dynamically added here -->
+  </div>
+
+  <form id="add-item-form">
+    <input type="text" id="item-name" placeholder="Enter task name" required>
+    <input type="time" id="item-time" required><p><span class="white-text">click the clock icon for convenience.</span></p>
+    <button type="submit" >Add Task</button>
+  </form>
+  <center><input type="color" id="colorPicker"></center>
+  <center>Here's a backgroud color changer :3</center> 
+
+    
+  <script src="script.js"></script>
+</body>
+</html>
