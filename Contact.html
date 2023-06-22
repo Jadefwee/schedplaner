@@ -4,6 +4,18 @@
 <title>Contact</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    function copyText() {
+      var textToCopy = document.getElementById("text-to-copy");
+      var range = document.createRange();
+      range.selectNode(textToCopy);
+      window.getSelection().removeAllRanges();
+      window.getSelection().addRange(range);
+      document.execCommand("copy");
+      window.getSelection().removeAllRanges();
+      alert("Text copied to clipboard!");
+    }
+  </script>
 <style>
   ul li a{
     text-decoration: none;
@@ -35,12 +47,17 @@ body {
   font-size: 50px;
 }
 </style>
+  <link rel="icon" type="image/png" href="logo.png">
 </head>
 <body>
 <div class="header">
   <h1>Contact</h1>
     <ul>
         <li><a href="https://www.facebook.com/Annejadesison">Facebook contact</a></li>
+        <li><a href="https://www.instagram.com/jadeey_28/">Instagram contact</a></li>
+        <div id="text-to-copy">mistyfwee <button onclick="copyText()">Copy</button>
+          </div>
+      
     </ul>
 </div>
 </body>
