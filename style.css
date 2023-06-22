@@ -274,6 +274,8 @@ body {
   .schedule-item {
     display: flex;
     justify-content: space-between;
+    border:3px solid #3cff00;
+    border-radius: 30px; /* Rounded border corners */
     align-items: center;
     padding: 10px;
     border-bottom: 1px solid #ccc;
@@ -295,7 +297,7 @@ body {
   
   #add-item-form input[type="text"],
   #add-item-form input[type="time"] {
-    border-radius: 20px; /* Rounded border corners */
+    border-radius: 20px;
     padding: 5px;
     margin-right: 10px;
     color: green;
