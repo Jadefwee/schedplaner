@@ -317,6 +317,7 @@ body {
     .my-button {
       background-color: #4CAF50; /* #4CAF50 background color */
       border: none; /* No border */
+      border-radius: 69px;
       color: white; /* Text color */
       padding: 10px 20px; /* Padding around the text */
       text-align: center; /* Center the text horizontally */
