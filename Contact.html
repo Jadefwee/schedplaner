@@ -15,6 +15,16 @@
       window.getSelection().removeAllRanges();
       alert("Text copied to clipboard!");
     }
+    function copyText1() {
+      var textToCopy = document.getElementById("text-to-copy");
+      var range = document.createRange();
+      range.selectNode(textToCopy);
+      window.getSelection().removeAllRanges();
+      window.getSelection().addRange(range);
+      document.execCommand("copy");
+      window.getSelection().removeAllRanges();
+      alert("Text copied to clipboard!");
+    }
   </script>
 <style>
   .red-text {
@@ -67,7 +77,7 @@ body {
           <div id="text-to-copy">mistyfwee <button onclick="copyText()">Copy</button>
           </div>
           <h1><a class="red-text">!No Twitter Account to Contact!.</a></h1>
-          <div id="text-to-copy">sisonanneverrjade@gmail.com <button onclick="copyText()">Copy</button>
+          <div id="text-to-copy">sisonanneverrjade@gmail.com <button onclick="copyText1()">Copy</button>
           </div>
         </div>
       
