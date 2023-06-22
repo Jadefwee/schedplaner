@@ -3,6 +3,26 @@
 <head>
   <title>Schedule Planner</title>
   <style>
+
+  .menu-container {
+      position: relative;
+      display: inline-block;
+    }
+
+    .menu-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 200px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      z-index: 1;
+    }
+
+    .menu-container:hover .menu-content {
+      display: block;
+    }
+    
     .red-text {
       color: red;
     }
