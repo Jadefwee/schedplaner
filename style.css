@@ -307,3 +307,16 @@ body {
     padding: 5px 10px;
   }
 
+  /* CSS styles for the button */
+    .my-button {
+      background-color: #4CAF50; /* Green background color */
+      border: none; /* No border */
+      color: white; /* Text color */
+      padding: 10px 20px; /* Padding around the text */
+      text-align: center; /* Center the text horizontally */
+      text-decoration: none; /* Remove underline */
+      display: inline-block; /* Display as inline element */
+      font-size: 16px; /* Font size */
+      cursor: pointer; /* Change cursor to pointer on hover */
+    }
+
