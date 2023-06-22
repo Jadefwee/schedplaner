@@ -61,7 +61,7 @@ ul li a{
 }
 
 ul li a:hover{
-  color: green;
+  color: #4CAF50;
 }
 
 
@@ -70,7 +70,7 @@ ul li a:hover{
   width: 200px;
   height: 40px;
   background: transparent;
-  border: 1px solid green;
+  border: 1px solid #4CAF50;
   margin-top: 13px;
   color: #fff;
   border-right: none;
@@ -84,8 +84,8 @@ ul li a:hover{
 .btn{
   width: 100px;
   height: 40px;
-  background: green;
-  border: 2px solid green;
+  background: #4CAF50;
+  border: 2px solid #4CAF50;
   margin-top: 13px;
   color: #fff;
   font-size: 15px;
@@ -133,7 +133,7 @@ ul li a:hover{
 .content .cn{
   width: 160px;
   height: 40px;
-  background: green;
+  background: #4CAF50;
   border: none;
   margin-bottom: 10px;
   margin-left: 20px;
@@ -155,7 +155,7 @@ ul li a:hover{
 }
 
 .content span{
-  color: green;
+  color: #4CAF50;
   font-size: 65px
 }
 
@@ -175,7 +175,7 @@ ul li a:hover{
   width: 220px;
   font-family: sans-serif;
   text-align: center;
-  color: green;
+  color: #4CAF50;
   font-size: 22px;
   background-color: #fff;
   border-radius: 10px;
@@ -187,7 +187,7 @@ ul li a:hover{
   width: 240px;
   height: 35px;
   background: transparent;
-  border-bottom: 1px solid green;
+  border-bottom: 1px solid #4CAF50;
   border-top: none;
   border-right: none;
   border-left: none;
@@ -210,7 +210,7 @@ ul li a:hover{
 .btnn{
   width: 240px;
   height: 40px;
-  background: green;
+  background: #4CAF50;
   border: none;
   margin-top: 30px;
   font-size: 18px;
@@ -221,7 +221,7 @@ ul li a:hover{
 }
 .btnn:hover{
   background: #fff;
-  color: green;
+  color: #4CAF50;
 }
 .btnn a{
   text-decoration: none;
@@ -236,7 +236,7 @@ ul li a:hover{
 }
 .form .link a{
   text-decoration: none;
-  color: green;
+  color: #4CAF50;
 }
 .liw{
   padding-top: 15px;
@@ -265,6 +265,12 @@ body {
   
   h1 {
     text-align: center;
+  }
+
+  h2 {
+    text-align: center;
+    color: #4CAF50;
+    font-size: 22px;
   }
   
   #schedule {
@@ -300,7 +306,7 @@ body {
     border-radius: 20px;
     padding: 5px;
     margin-right: 10px;
-    color: green;
+    color: #4CAF50;
   }
   
   #add-item-form button {
@@ -309,7 +315,7 @@ body {
 
   /* CSS styles for the button */
     .my-button {
-      background-color: #4CAF50; /* Green background color */
+      background-color: #4CAF50; /* #4CAF50 background color */
       border: none; /* No border */
       color: white; /* Text color */
       padding: 10px 20px; /* Padding around the text */
