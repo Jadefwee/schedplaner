@@ -64,11 +64,6 @@ ul li a:hover{
   color: green;
 }
 
-.search{
-  width: 330px;
-  float: left;
-  margin-left: 270px;
-}
 
 .srch{
   font-family: 'Times New Roman';
@@ -300,6 +295,7 @@ body {
   
   #add-item-form input[type="text"],
   #add-item-form input[type="time"] {
+    border-radius: 20px; /* Rounded border corners */
     padding: 5px;
     margin-right: 10px;
     color: green;
