@@ -116,3 +116,7 @@ function changeTextColor() {
   var cookieValue = encodeURIComponent(value) + ((daysToExpire == null) ? '' : '; expires=' + expirationDate.toUTCString());
   document.cookie = name + '=' + cookieValue;
 }
+
+function closeTab() {
+  window.close(); // Close the current window/tab
+}
