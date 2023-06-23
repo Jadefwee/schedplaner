@@ -281,6 +281,7 @@ body {
     display: flex;
     justify-content: space-between;
     border:3px solid #3cff00;
+     color: white;
     border-radius: 30px; /* Rounded border corners */
     align-items: center;
     padding: 10px;
@@ -289,6 +290,7 @@ body {
   
   .schedule-item .item-name {
     flex-grow: 1;
+
   }
   
   .schedule-item .item-time {
